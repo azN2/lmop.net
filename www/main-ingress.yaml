@@ -13,7 +13,7 @@ spec:
       paths:
       - backend:
           service:
-            name: modem7/docker-starwars
+            name: frontpage
             port:
               number: 8080
         path: /web
