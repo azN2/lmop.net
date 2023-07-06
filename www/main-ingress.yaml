@@ -28,7 +28,7 @@ spec:
         pathType: Prefix
       - backend:
           service:
-            name: about
+            name: subscribe
             port:
               number: 80
         path: /subscribe
