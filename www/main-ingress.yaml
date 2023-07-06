@@ -13,10 +13,10 @@ spec:
       paths:
       - backend:
           service:
-            name: echoserver
+            name: frontpage
             port:
               number: 80
-        path: /web2
+        path: /star
         pathType: Prefix
       - backend:
           service:

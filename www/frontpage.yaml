@@ -15,6 +15,7 @@ spec:
     spec:
       containers:
       - image: modem7/docker-starwars
+        imagePullPolicy: IfNotPresent
         name: frontpage
         ports:
         - containerPort: 8080
