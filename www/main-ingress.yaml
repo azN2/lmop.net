@@ -13,7 +13,7 @@ spec:
       paths:
       - backend:
           service:
-            name: frontpage
+            name: echoserver
             port:
               number: 80
         path: /web
