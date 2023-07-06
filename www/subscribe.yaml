@@ -13,7 +13,7 @@ spec:
         app: subscribe
     spec:
       containers:
-      - image: www/echoserver.yaml
+      - image: public.ecr.aws/ecs-sample-image/amazon-ecs-sample:latest
         imagePullPolicy: IfNotPresent
         name: subscribe
         ports:
