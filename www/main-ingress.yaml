@@ -16,7 +16,7 @@ spec:
             name: frontpage
             port:
               number: 8080
-        path: /web
+        path: /web2
         pathType: Prefix
       - backend:
           service:
