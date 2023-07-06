@@ -13,9 +13,9 @@ spec:
       paths:
       - backend:
           service:
-            name: echoserver
+            name: modem7/docker-starwars
             port:
-              number: 80
+              number: 8080
         path: /web
         pathType: Prefix
       - backend:
