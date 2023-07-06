@@ -13,7 +13,7 @@ spec:
       paths:
       - backend:
           service:
-            name: guestbook-ui
+            name: frontpage
             port:
               number: 80
         path: /web
