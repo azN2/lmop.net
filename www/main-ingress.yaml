@@ -13,24 +13,24 @@ spec:
       paths:
       - backend:
           service:
-            name: frontpage
+            name: echoserver
             port:
-              number: 8080
+              number: 80
         path: /*
         pathType: Prefix
       - backend:
           service:
-            name: echoserver
+            name: about
             port:
               number: 80
         path: /about
         pathType: Prefix
       - backend:
           service:
-            name: echoserver
+            name: about
             port:
               number: 80
-        path: /echo
+        path: /subscribe
         pathType: Prefix
   tls:
   - hosts:
